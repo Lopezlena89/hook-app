@@ -19,8 +19,8 @@ const initialState = [
 
 
 export const TodoApp = () => {
-
-    const  {todos,todosCount,pendingTodosCount,handleDeleteTodo,handleNewTodo,handleToggleTodo} = useTodos();
+const  {todos,todosCount,pendingTodosCount,handleDeleteTodo,handleNewTodo,handleToggleTodo} = useTodos();
+    
 
   return (
     <>
